@@ -1,0 +1,1 @@
+Before generating examples, test data, or scenarios, check them against real-world practice. Flag anything that is textbook-only or unlikely in production, and prefer realistic cases even if they are harder to set up.
