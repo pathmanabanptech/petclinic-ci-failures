@@ -7,7 +7,7 @@ on:
   push:
     branches: [ main, 'case/**' ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, develop]
   workflow_dispatch:
 jobs:
   build:
