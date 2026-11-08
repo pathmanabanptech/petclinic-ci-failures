@@ -185,4 +185,13 @@ public class Owner extends Person {
 		pet.addVisit(visit);
 	}
 
+	/**
+	 * Return whether this Owner already has a saved Pet with the given name.
+	 * @param name the pet name to check
+	 * @return true if a saved pet with that name exists
+	 */
+	public boolean hasPet(String name) {
+		return getPet(name, true) != null;
+	}
+
 }
